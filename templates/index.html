@@ -33,8 +33,8 @@
     <legend>B5 Manual Annotator (enriched -> enriched-rep)</legend>
 
     <div class="row">
-      <div class="kv"><label>Enriched folder</label><input id="manEnriched" /></div>
-      <div class="kv"><label>Enriched-Rep folder</label><input id="manEnrichedRep" /></div>
+      <div class="kv"><label>Enriched folder</label><input id="manEnriched" placeholder="./data/enriched" /></div>
+      <div class="kv"><label>Enriched-Rep folder</label><input id="manEnrichedRep" placeholder="./data/enriched-rep" /></div>
     </div>
 
     <div class="row">
@@ -81,6 +81,9 @@
         <div id="manPaneTip" class="muted pane-tip">
           Tip: Use <b>Reverse</b> when the rep waveform is inverted (peaks look like valleys). Applies only to the current pane.
           Hotkeys: <b>P</b>=Peak, <b>V</b>=Valley, <b>Shift+V</b>=Auto-fill, <b>R</b>=Reverse toggle.
+        </div>
+        <div class="muted" style="margin-top:6px;">
+          Path tip: use relative paths like <code>./data/enriched</code> and <code>./data/enriched-rep</code>.
         </div>
       </div>
     </div>

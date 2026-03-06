@@ -28,6 +28,11 @@ python app.py
 http://127.0.0.1:5151/
 ```
 
+## Student Setup Guide
+
+- See `requirements.md` for install steps and relative path usage.
+- Use relative folders in the UI (for example `./data/enriched` and `./data/enriched-rep`).
+
 ## Main endpoints
 
 - `POST /api/athena/b5/manual/scan`

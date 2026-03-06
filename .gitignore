@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+.venv/
+venv/
+.DS_Store
+*.log
+*.swp
+*.xlsx.done
+*.manual_labels.jsonl
+*.adjust_label_debug.json
